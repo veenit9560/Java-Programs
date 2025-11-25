@@ -1,3 +1,4 @@
+// sum of digits numbers 
 import java.util.Scanner;
 
 public class sum_nth_num {
