@@ -7,13 +7,13 @@ public class ReverseInteger {
         while (num != 0) {
             int digit = num % 10; // Get the last digit
             reversedNum = reversedNum * 10 + digit; // Add the digit to the reversed number
-            num /= 10; // Remove the last digit from the original number
+            num /=10; // Remove the last digit from the original number
         }
 
         return reversedNum;
     }
     public static void main(String[] args) {
-        int originalNumber = 12345;
+        int originalNumber = 120;
         int reversed = reverse(originalNumber);
         System.out.println("Original Number: " + originalNumber);
         System.out.println("Reversed Number: " + reversed); 
